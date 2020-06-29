@@ -1,0 +1,152 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #2e343c;
+	box-shadow: inset 2px 2px 100px;
+	height: 100vh;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+* {
+	box-sizing: border-box;
+}
+form {
+	width: 310px;
+	height: 520px;
+	background-image: url('./images/log-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: space-evenly;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2), inset 1px 1px 60px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.heading {
+	text-align: center;
+	font-family: myriad pro;
+	letter-spacing: 1px;
+	margin-top: 10%;
+}
+.heading p:nth-child(1) {
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 26px;
+}
+.heading p:nth-child(2) {
+	font-size: 12px;
+	color: #ffffff;
+	font-family: calibri;
+}
+.heading p {
+	line-height: 5px;
+}
+.input-container {
+	display: flex;
+	height: 100px;
+	width: 350px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #e0244e;
+	border-radius: 50px;
+	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.2);
+}
+.user-inputs {
+	display: flex;
+	flex-direction: column;
+}
+.p-icon img {
+	height: 30px;
+}
+.p-icon {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #373e46;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user-inputs input {
+	width: 150px;
+	height: 25px;
+	font-family: Calibri;
+	border: none;
+	outline: none;
+	margin: 3px;
+	padding: 5px;
+	background-color: #cb1e56;
+	color: #ffffff;
+}
+.user-inputs input::placeholder {
+	color: #ffffff;
+}
+.checkbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: myriad pro;
+	font-size: 12px;
+}
+.checkbox p {
+	color: #e0e0e0;
+}
+.log-in {
+	width: 140px;
+	height: 40px;
+	border: none;
+	outline: none;
+	background-color: #e0244e;
+	border-radius: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: myriad pro;
+	box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
+	font-size: 14px;
+}
+.forget {
+	font-family: myriad pro;
+	font-size: 12px;
+	color: #9e9fa0;
+}
+.social {
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+}
+.social li a {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.2);
+	margin: 5px;
+	border-radius: 5px;
+}
+.social li a i {
+	color: #ffffff;
+	font-size: 15px;
+}
+button:active {
+	transform: scale(1.1);
+}
+.social li a:hover {
+	background-color: #cc1f46;
+	transition: all ease 0.5s;
+}
+.input-container input:focus {
+	background-color: transparent;
+	border-bottom: 1px solid #a7092d;
+	transition: all ease 0.5s;
+}
